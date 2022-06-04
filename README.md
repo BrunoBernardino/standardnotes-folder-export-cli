@@ -24,16 +24,16 @@ There are no other dependencies. **Deno**!
 
 ```sh
 # For exporting notes as *.txt files into an "exports" directory
-$ deno run --allow-read --allow-write https://deno.land/x/standardnotes-folder-export@1.0.0/main.ts
+$ deno run --allow-read --allow-write https://deno.land/x/standardnotes_folder_export@1.0.0/main.ts
 
 # For exporting notes as *.md files into an "exported" directory
-$ deno run --allow-read --allow-write https://deno.land/x/standardnotes-folder-export@1.0.0/main.ts --file-extension=md --output-directory=exported
+$ deno run --allow-read --allow-write https://deno.land/x/standardnotes_folder_export@1.0.0/main.ts --file-extension=md --output-directory=exported
 ```
 
 ## Usage (install)
 
 ```sh
-$ deno install --allow-net https://deno.land/x/standardnotes-folder-export@1.0.0/main.ts --name standardnotes-folder-export
+$ deno install --allow-net https://deno.land/x/standardnotes_folder_export@1.0.0/main.ts --name standardnotes-folder-export
 
 # For exporting notes as *.txt files into an "exports" directory
 $ standardnotes-folder-export
