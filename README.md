@@ -1,7 +1,7 @@
 # Standard Notes Folder Export CLI - Deno
 
 [![](https://github.com/BrunoBernardino/standardnotes-folder-export-cli/workflows/Run%20Tests/badge.svg)](https://github.com/BrunoBernardino/standardnotes-folder-export-cli/actions?workflow=Run+Tests)
-[![](https://shield.deno.dev/x/standardnotes-folder-export)](https://deno.land/x/standardnotes-folder-export)
+[![](https://shield.deno.dev/x/standardnotes_folder_export)](https://deno.land/x/standardnotes_folder_export)
 
 This is a small and simple CLI script to convert a decrypted Standard Notes
 Backup/Export into a structure of `<tag>/<note-title>.<file-extension>`.
